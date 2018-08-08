@@ -14,6 +14,6 @@ namespace FCamaraWebAPI.Models
         public string RespostaSecreta { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
-        public int Status { get; set; }
+        public bool StatusUsuario { get; set; }
     }
 }

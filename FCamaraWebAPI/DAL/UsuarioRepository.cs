@@ -13,9 +13,16 @@ namespace FCamaraWebAPI.DAL
 {
     public class UsuarioRepository : IUsuarioRepository
     {
+        private readonly IDbConnection _db;
+
+        public UsuarioRepository()
+        {
+            _db = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
+        }
+
         public Usuario ObterUsuario(string nome)
         {
-            return new Usuario();
+            return _db.Query<Usuario>("SELECT Id,Nome,PerguntaSecreta,RespostaSecreta,Email,Senha,StatusUsuario FROM tb_usuarios WHERE Nome =@Nome", new { Nome = nome }).SingleOrDefault();
         }
 
         public string ObterNomeUsuario(string email, string senha)
