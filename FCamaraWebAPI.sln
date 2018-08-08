@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamaraWebAPI", "FCamaraWebAPI\FCamaraWebAPI.csproj", "{A07E6B71-1AB2-48C5-B915-ADDDBD01592C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCamaraWebAPI.Tests", "FCamaraWebAPI.Tests\FCamaraWebAPI.Tests.csproj", "{D2CB2246-FBCC-4535-BF14-44878C5D728C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A07E6B71-1AB2-48C5-B915-ADDDBD01592C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07E6B71-1AB2-48C5-B915-ADDDBD01592C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07E6B71-1AB2-48C5-B915-ADDDBD01592C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07E6B71-1AB2-48C5-B915-ADDDBD01592C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CB2246-FBCC-4535-BF14-44878C5D728C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CB2246-FBCC-4535-BF14-44878C5D728C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CB2246-FBCC-4535-BF14-44878C5D728C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CB2246-FBCC-4535-BF14-44878C5D728C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6D20403-75B9-45C4-8A44-1D25BD5E0143}
+	EndGlobalSection
+EndGlobal
