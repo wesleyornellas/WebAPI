@@ -15,10 +15,10 @@ namespace FCamaraWebAPI.DAL
 
         string ObterNomeUsuario(string email, string senha);
 
-        bool InserirUsuario(Usuario usuario);
+        string InserirUsuario(Usuario usuario);
 
-        bool AtualizarUsuario(Usuario usuario);
+        string AtualizarUsuario(Usuario usuario);
 
-        bool DeletarUsuario(Guid id, string email, string senha);
+        string DeletarUsuario(Guid id, string email, string senha);
     }
 }

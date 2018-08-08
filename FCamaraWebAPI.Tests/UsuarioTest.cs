@@ -22,6 +22,14 @@ namespace FCamaraWebAPI.Tests
             var usuarios = ListaUsuariosTest();
         }
 
+        [TestMethod]
+        public void ObterUsuariosDB()
+        {
+            string nome = "Joana";
+            UsuarioRepository repositorio = new UsuarioRepository();
+            Usuario usuario = repositorio.ObterUsuario(nome);
+        }
+
         private List<Usuario> ListaUsuariosTest()
         {
             var usuariosTeste = new List<Usuario>();
